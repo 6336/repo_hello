@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="repo_hello"
+           fetch="git@github.com:6336/repo_hello.git" />
+  <default revision="master"
+           remote="gitee" sync-j="2" />
+  <project path="data" name="game" revision="master" />
+</manifest>
+
