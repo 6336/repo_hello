@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote name="senseauto" 
+          fetch="ssh://USERNAME@gerrit.senseauto.com:29418"/>
+  <default revision="develop"
+           remote="senseauto" />
+  <project name="senseauto_core" path="senseauto_core" />
+  <project name="senseauto_logtrace" path="senseauto_logtrace" />  
+  <project name="senseauto_per" path="senseauto_per" />  
+  <project name="senseauto_phm" path="senseauto_phm" />  
+  <project name="senseauto_healthmonitor" path="senseauto_healthmonitor" />  
+</manifest>
