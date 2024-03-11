@@ -5,20 +5,15 @@
           fetch="ssh://lihaibin@gerrit.senseauto.com:29418"/>
   <default revision="develop"
            remote="senseauto" />
-  <project name="senseauto-rscl" path="senseauto-rscl" />
   <project name="senseauto_core" path="senseauto_core" />
-  <project name="senseauto_crypto" path="senseauto_crypto" />
-  <project name="senseauto_dlt_daemon" path="senseauto_dlt_daemon" />
+  <project name="senseauto_logtrace" path="senseauto_logtrace" />
+  <project name="senseauto_per" path="senseauto_per" />
+  <project name="senseauto_phm" path="senseauto_phm" />
+  <project name="senseauto_healthmonitor" path="senseauto_healthmonitor" />
+   <project name="senseauto-rscl" path="senseauto-rscl"  />
+  <project name="senseauto_dlt_daemon" path="senseauto_dlt_daemon"  />
   <project name="senseauto_dlt_viewer" path="senseauto_dlt_viewer" />
-  <project name="senseauto_healthmonitor" path="senseauto_healthmonitor" />  
-  <project name="senseauto_logtrace" path="senseauto_logtrace" />  
-  <project name="senseauto_per" path="senseauto_per" />  
-  <project name="senseauto_phm" path="senseauto_phm" />  
   <project name="senseauto_qnx_sdk" path="senseauto_qnx_sdk" />
-  <project name="senseauto_tsync" path="senseauto_tsync" />
-  <project name="senselotu_3rdparty" path="senselotu_3rdparty" />
-  <project name="senselotu_arxml" path="senselotu_arxml" />
-  <project name="senselotu_cm" path="senselotu_cm" />
-  <project name="senselotu_cm_fastdds" path="senselotu_cm_fastdds" />
-  <project name="senselotu_cm_vsomeip" path="senselotu_cm_vsomeip" />
+  <project name="senseauto_crypto" path="senseauto_crypto" revision="master"/>
+  <project name="senseauto_tsync" path="senseauto_tsync" revision="master" />
 </manifest>
